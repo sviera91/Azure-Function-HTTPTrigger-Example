@@ -14,7 +14,7 @@ if (-not $name) {
 
 if ($name) {
     $status = [HttpStatusCode]::OK
-    $body = "Hello $name. I hope you have a great day! :)"
+    $body = "Hello $name! I hope you have a great day :)"
 }
 else {
     $status = [HttpStatusCode]::BadRequest
